@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ChatViewController.swift
 //  Flash Chat
 //
 //  Created by Angela Yu on 29/08/2015.
