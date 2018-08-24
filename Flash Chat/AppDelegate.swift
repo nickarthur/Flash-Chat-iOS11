@@ -20,6 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //TODO: Initialise and Configure your Firebase here:
         FirebaseApp.configure()
         
+        Database.database().isPersistenceEnabled = true
+        let myDatabase = Database.database().reference()
+        
+        myDatabase.setValue("Yo! What up?")
+        
         return true
     }
 
