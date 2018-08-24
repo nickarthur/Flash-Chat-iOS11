@@ -350,84 +350,12 @@
             </objects>
             <point key="canvasLocation" x="1218" y="-332"/>
         </scene>
-        <!--Welcome-->
-        <scene sceneID="7xg-Sp-xyD">
-            <objects>
-                <viewController storyboardIdentifier="welcomeVC" id="9sq-3y-Av3" customClass="WelcomeViewController" customModule="Flash_Chat" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="viR-Bi-pmA"/>
-                        <viewControllerLayoutGuide type="bottom" id="feJ-fM-W0j"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Kcf-Fp-iyg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7uE-UI-iGS">
-                                <rect key="frame" x="0.0" y="622" width="375" height="45"/>
-                                <color key="backgroundColor" red="0.1899853349" green="0.35768887399999999" blue="0.43821841480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="xOz-k2-QUZ"/>
-                                </constraints>
-                                <state key="normal" title="Log In">
-                                    <color key="titleColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="g7P-V0-C6j" kind="show" identifier="goToLogin" id="n8t-jw-wZH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZM-Mn-rgF">
-                                <rect key="frame" x="0.0" y="577" width="375" height="45"/>
-                                <color key="backgroundColor" red="0.1819814891" green="0.69426733259999995" blue="0.53024792669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="maN-Q6-uGU"/>
-                                </constraints>
-                                <state key="normal" title="Register">
-                                    <color key="titleColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="CZG-XV-vCk" kind="show" identifier="goToRegistration" id="w95-ef-dOe"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="v4U-tS-TJp">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="577"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="AZM-Mn-rgF" secondAttribute="trailing" id="1pD-QQ-9lF"/>
-                            <constraint firstItem="7uE-UI-iGS" firstAttribute="leading" secondItem="Kcf-Fp-iyg" secondAttribute="leading" id="Gci-FN-Xlu"/>
-                            <constraint firstItem="AZM-Mn-rgF" firstAttribute="leading" secondItem="Kcf-Fp-iyg" secondAttribute="leading" id="Rec-96-JNW"/>
-                            <constraint firstItem="feJ-fM-W0j" firstAttribute="top" secondItem="7uE-UI-iGS" secondAttribute="bottom" id="VNd-lm-MKt"/>
-                            <constraint firstAttribute="trailing" secondItem="7uE-UI-iGS" secondAttribute="trailing" id="WFr-Ho-4aV"/>
-                            <constraint firstItem="v4U-tS-TJp" firstAttribute="top" secondItem="Kcf-Fp-iyg" secondAttribute="top" id="Xyz-Xr-8lf"/>
-                            <constraint firstItem="AZM-Mn-rgF" firstAttribute="top" secondItem="v4U-tS-TJp" secondAttribute="bottom" id="bje-Vg-cos"/>
-                            <constraint firstItem="v4U-tS-TJp" firstAttribute="leading" secondItem="Kcf-Fp-iyg" secondAttribute="leading" id="dA4-OA-RGS"/>
-                            <constraint firstItem="7uE-UI-iGS" firstAttribute="top" secondItem="AZM-Mn-rgF" secondAttribute="bottom" id="eMo-hC-GEp"/>
-                            <constraint firstItem="AZM-Mn-rgF" firstAttribute="top" secondItem="v4U-tS-TJp" secondAttribute="bottom" id="f6h-yn-trd"/>
-                            <constraint firstAttribute="trailing" secondItem="v4U-tS-TJp" secondAttribute="trailing" id="fXe-k8-nYo"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="lPi-ur-eBE"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Welcome" id="VNb-Gl-c7r"/>
-                    <connections>
-                        <segue destination="Lht-0Q-2GB" kind="show" identifier="goToChat" id="YHF-sL-1w3"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VOh-G7-gin" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-425" y="1594"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="background" width="1280" height="949"/>
         <image name="background1" width="1800" height="1192"/>
         <image name="cruise-stars-milkyway" width="801" height="487"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="S8t-ty-LTp"/>
-        <segue reference="D96-xE-jcS"/>
-        <segue reference="ZAN-Ya-gtX"/>
+        <segue reference="HuM-bX-Yij"/>
     </inferredMetricsTieBreakers>
 </document>
