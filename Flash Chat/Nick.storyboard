@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="-1694" y="-332"/>
         </scene>
-        <!--Register-->
+        <!--RegisterVC-->
         <scene sceneID="4KI-5F-J7E">
             <objects>
-                <viewController storyboardIdentifier="registrationVC" id="CZG-XV-vCk" customClass="RegisterViewController" customModule="Flash_Chat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="registrationVC" id="CZG-XV-vCk" userLabel="RegisterVC" customClass="RegisterViewController" customModule="Flash_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kzN-Xr-IRg"/>
                         <viewControllerLayoutGuide type="bottom" id="75c-YA-Bdu"/>
@@ -58,7 +58,7 @@
                                             <constraint firstAttribute="height" constant="30" id="KEc-WE-Q3L"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hh5-iw-vuR">
                                         <rect key="frame" x="16" y="165" width="343" height="30"/>
@@ -71,8 +71,7 @@
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="registerPressed:" destination="CZG-XV-vCk" eventType="touchUpInside" id="iBW-2e-dGy"/>
-                                            <segue destination="Lht-0Q-2GB" kind="show" identifier="goToChat" id="h6K-Kc-NeM"/>
+                                            <action selector="registerPressed:" destination="CZG-XV-vCk" eventType="touchUpInside" id="fkh-uQ-34S"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -108,12 +107,13 @@
                     <navigationItem key="navigationItem" title="Register" id="Bt4-lU-WhR"/>
                     <connections>
                         <outlet property="emailTextfield" destination="yLL-vQ-vtv" id="bEw-f4-ho3"/>
-                        <outlet property="passwordTextfield" destination="RRf-h2-chi" id="2rJ-rd-Eat"/>
+                        <outlet property="passwordTextfield" destination="RRf-h2-chi" id="OeL-AG-4dH"/>
+                        <segue destination="Lht-0Q-2GB" kind="push" identifier="goToChat" id="rTy-eo-1zd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XNi-9d-uJn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="274" y="154"/>
+            <point key="canvasLocation" x="272.80000000000001" y="153.37331334332833"/>
         </scene>
         <!--Log In-->
         <scene sceneID="afu-3B-TWN">
@@ -136,7 +136,7 @@
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vd0-hj-VNE">
                                         <rect key="frame" x="16" y="126" width="343" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBo-pM-cY5">
                                         <rect key="frame" x="16" y="164" width="343" height="30"/>
@@ -147,7 +147,6 @@
                                         </state>
                                         <connections>
                                             <action selector="logInPressed:" destination="g7P-V0-C6j" eventType="touchUpInside" id="gLM-58-fT1"/>
-                                            <segue destination="Lht-0Q-2GB" kind="show" identifier="goToChat" id="S8t-ty-LTp"/>
                                         </connections>
                                     </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YlC-gP-ubB">
@@ -188,6 +187,7 @@
                     <connections>
                         <outlet property="emailTextfield" destination="YlC-gP-ubB" id="g9v-EA-JXD"/>
                         <outlet property="passwordTextfield" destination="vd0-hj-VNE" id="gvJ-QL-Bvx"/>
+                        <segue destination="Lht-0Q-2GB" kind="push" identifier="goToChat" id="RLP-Ru-e6N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="haY-Zk-x7F" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -216,7 +216,7 @@
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="g7P-V0-C6j" kind="show" identifier="goToLogin" id="D96-xE-jcS"/>
+                                    <segue destination="g7P-V0-C6j" kind="push" identifier="goToLogin" id="rUD-Gt-40J"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWf-ap-OKM">
@@ -356,6 +356,6 @@
         <image name="cruise-stars-milkyway" width="801" height="487"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HuM-bX-Yij"/>
+        <segue reference="RLP-Ru-e6N"/>
     </inferredMetricsTieBreakers>
 </document>
