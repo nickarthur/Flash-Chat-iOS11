@@ -23,6 +23,26 @@ class CustomMessageCell: UITableViewCell {
         
         
     }
+    
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        if selected {
+            UIView.animate(withDuration: 2) {
+                self.contentView.backgroundColor = #colorLiteral(red: 1, green: 0, blue: 0.8761399504, alpha: 1)
+            }
+        }
+        else {
+            UIView.animate(withDuration: 0.5) {
+                self.contentView.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+            }
+        }
+    }
 
+    override func setHighlighted(_ highlighted: Bool, animated: Bool) {
+        if highlighted {
+            UIView.animate(withDuration: 1, animations: {
+                self.contentView.backgroundColor =  #colorLiteral(red: 1, green: 0, blue: 0.8761399504, alpha: 1)
+            })
+        }
+    }
 
 }

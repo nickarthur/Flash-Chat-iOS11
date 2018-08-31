@@ -85,13 +85,11 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
 
     
-    // highlight selected rows
+    // process selected row as desired
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let cell = tableView.cellForRow(at: indexPath) {
-            cell.contentView.backgroundColor = #colorLiteral(red: 1, green: 0, blue: 1, alpha: 1) //ColorLitera -- very nice!
-        }
+//        if let cell = tableView.cellForRow(at: indexPath) {
+//        }
     }
-
     
     //TODO: Declare numberOfRowsInSection here:
     
