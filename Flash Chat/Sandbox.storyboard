@@ -85,6 +85,7 @@
                             <constraint firstItem="CeV-m6-g20" firstAttribute="leading" secondItem="g0B-Mu-IiK" secondAttribute="leading" id="nt9-CB-U1w"/>
                             <constraint firstAttribute="trailing" secondItem="CeV-m6-g20" secondAttribute="trailing" id="pFI-jc-sZP"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="wwJ-Mc-76E"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w5F-Dh-AnJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -111,6 +112,7 @@
                             <constraint firstAttribute="trailing" secondItem="YkW-GE-qmF" secondAttribute="trailing" id="TIh-Jf-bsd"/>
                             <constraint firstItem="YkW-GE-qmF" firstAttribute="leading" secondItem="JZL-kp-k1B" secondAttribute="leading" id="bRQ-Xb-20q"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="69A-fU-SSF"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qqq-ch-dfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -120,7 +122,6 @@
         <!--LightsVC-->
         <scene sceneID="yy1-9p-KqF">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7KZ-2d-7WT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="veW-pY-dte" userLabel="LightsVC" customClass="LightsViewController" customModule="Flash_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="03N-Un-iLn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
@@ -169,13 +170,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Lights" id="UrS-Z0-FU3"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7KZ-2d-7WT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-999" y="1524"/>
         </scene>
         <!--LightsTopVC-->
         <scene sceneID="GJS-P5-SNP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZjU-Qs-sGi" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="8C4-4r-TIh" userLabel="LightsTopVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rfT-QO-J17">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="317"/>
@@ -196,13 +197,13 @@
                         <viewLayoutGuide key="safeArea" id="n8H-yd-nwS"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZjU-Qs-sGi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-119" y="1368"/>
         </scene>
         <!--LightsBottomVC-->
         <scene sceneID="cM7-ud-su2">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1VB-UA-ck0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="FLE-dB-WzN" userLabel="LightsBottomVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iK3-4h-Flq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
@@ -223,6 +224,7 @@
                         <viewLayoutGuide key="safeArea" id="vMQ-zB-AVD"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1VB-UA-ck0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-92" y="1753"/>
         </scene>
@@ -232,6 +234,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="M6m-Pt-dyF" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="LzY-tT-ZW2">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
@@ -249,7 +252,6 @@
         <!--ButtonsVC-->
         <scene sceneID="bVA-Me-yO3">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2bE-4L-qBM" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="Butttons" id="59o-7w-99G" userLabel="ButtonsVC" customClass="ButtonsViewController" customModule="Flash_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FyY-Sb-kT8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
@@ -298,13 +300,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Buttons" id="fgk-zK-ViH"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2bE-4L-qBM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2873" y="1537"/>
         </scene>
         <!--ButonsTopVC-->
         <scene sceneID="W9P-3q-CM3">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a5u-Kx-ljh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Z8b-FJ-zrB" userLabel="ButonsTopVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IM8-K4-evs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="317"/>
@@ -325,13 +327,13 @@
                         <viewLayoutGuide key="safeArea" id="M4f-P9-4ee"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a5u-Kx-ljh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1993" y="1379"/>
         </scene>
         <!--ButtonsBottomVC-->
         <scene sceneID="yeh-U3-fpc">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zva-rr-obo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="guJ-Fb-V9o" userLabel="ButtonsBottomVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K2M-Dq-53C">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
@@ -352,13 +354,13 @@
                         <viewLayoutGuide key="safeArea" id="YQS-Az-yGR"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zva-rr-obo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1967" y="1762"/>
         </scene>
         <!--SettingsVC-->
         <scene sceneID="1GW-is-OKl">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Zes-fB-plW" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="Settings" id="rO6-xN-nhk" userLabel="SettingsVC" customClass="SettingsViewController" customModule="Flash_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ddn-Jr-ur9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
@@ -407,13 +409,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" id="RZG-z9-Sfj"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zes-fB-plW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="921" y="1535"/>
         </scene>
         <!--SettingsTopVC-->
         <scene sceneID="VHj-GQ-yqW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vnz-Ah-dDs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="IRG-wL-D2I" userLabel="SettingsTopVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5tq-QC-U0B">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="317"/>
@@ -434,13 +436,13 @@
                         <viewLayoutGuide key="safeArea" id="y2n-4Y-TfI"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vnz-Ah-dDs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1858" y="1379"/>
         </scene>
         <!--SettingsBottom-->
         <scene sceneID="efd-HT-Ebh">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QGj-BH-HkT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="gjw-IN-ib9" userLabel="SettingsBottom" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6jq-5o-GlP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
@@ -461,6 +463,7 @@
                         <viewLayoutGuide key="safeArea" id="NW1-o6-EY7"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QGj-BH-HkT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1881" y="1762"/>
         </scene>

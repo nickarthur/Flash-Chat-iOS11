@@ -30,9 +30,77 @@
 		73372945213955F6003773BE /* Storyboard3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73372944213955F6003773BE /* Storyboard3.storyboard */; };
 		7337294721395A92003773BE /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337294621395A92003773BE /* VC2.swift */; };
 		7337294921395AA6003773BE /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337294821395AA6003773BE /* VC3.swift */; };
+		73372B6D213B6DB2003773BE /* Flash_Chat_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372B6C213B6DB2003773BE /* Flash_Chat_Tests.swift */; };
+		73372B7B213B6DEA003773BE /* Flash_ChatUI__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372B7A213B6DEA003773BE /* Flash_ChatUI__Tests.swift */; };
+		73372B88213B6E19003773BE /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73372B87213B6E19003773BE /* ReplayKit.framework */; };
+		73372B8B213B6E19003773BE /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372B8A213B6E19003773BE /* SampleHandler.swift */; };
+		73372B92213B6E1A003773BE /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73372B87213B6E19003773BE /* ReplayKit.framework */; };
+		73372B94213B6E1A003773BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73372B93213B6E1A003773BE /* UIKit.framework */; };
+		73372B97213B6E1A003773BE /* BroadcastSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372B96213B6E1A003773BE /* BroadcastSetupViewController.swift */; };
+		73372B9B213B6E1A003773BE /* Broadcast-Extension-NANSetupUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 73372B91213B6E1A003773BE /* Broadcast-Extension-NANSetupUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		73372B9E213B6E1A003773BE /* Broadcast-Extension-NAN.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 73372B86213B6E19003773BE /* Broadcast-Extension-NAN.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		73372BA8213B6F86003773BE /* KITCHEN-SINK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BA7213B6F86003773BE /* KITCHEN-SINK.swift */; };
+		73372BBB213BF6A8003773BE /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BB1213BF6A8003773BE /* Address.swift */; };
+		73372BBC213BF6A8003773BE /* LightSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BB2213BF6A8003773BE /* LightSetup.swift */; };
+		73372BBD213BF6A8003773BE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BB3213BF6A8003773BE /* Model.swift */; };
+		73372BBE213BF6A8003773BE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BB4213BF6A8003773BE /* Person.swift */; };
+		73372BBF213BF6A8003773BE /* PhotoShoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BB5213BF6A8003773BE /* PhotoShoot.swift */; };
+		73372BC0213BF6A8003773BE /* Phtographer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BB6213BF6A8003773BE /* Phtographer.swift */; };
+		73372BC1213BF6A8003773BE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BB7213BF6A8003773BE /* Product.swift */; };
+		73372BC2213BF6A8003773BE /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BB8213BF6A8003773BE /* Scene.swift */; };
+		73372BC3213BF6A8003773BE /* Studio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BB9213BF6A8003773BE /* Studio.swift */; };
+		73372BC4213BF6A8003773BE /* PhotoSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BBA213BF6A8003773BE /* PhotoSubject.swift */; };
+		73372BC6213BF74C003773BE /* BLELight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BC5213BF74C003773BE /* BLELight.swift */; };
+		73372BC8213BF796003773BE /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BC7213BF796003773BE /* Light.swift */; };
 		735C4B9D212E21B00046C14B /* Nick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735C4B9C212E21B00046C14B /* Nick.storyboard */; };
 		739F4BDB212DA37400558B5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 739F4BDA212DA37300558B5F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73372B6F213B6DB2003773BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6321A9AE1B94EBA10053D2E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6321A9B51B94EBA10053D2E7;
+			remoteInfo = "Flash Chat";
+		};
+		73372B7D213B6DEA003773BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6321A9AE1B94EBA10053D2E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6321A9B51B94EBA10053D2E7;
+			remoteInfo = "Flash Chat";
+		};
+		73372B99213B6E1A003773BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6321A9AE1B94EBA10053D2E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73372B90213B6E1A003773BE;
+			remoteInfo = "Broadcast-Extension-NANSetupUI";
+		};
+		73372B9C213B6E1A003773BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6321A9AE1B94EBA10053D2E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73372B85213B6E19003773BE;
+			remoteInfo = "Broadcast-Extension-NAN";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		73372BA5213B6E1A003773BE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				73372B9E213B6E1A003773BE /* Broadcast-Extension-NAN.appex in Embed App Extensions */,
+				73372B9B213B6E1A003773BE /* Broadcast-Extension-NANSetupUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6193E38227DB1F00561E8950 /* Pods-Flash Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flash Chat/Pods-Flash Chat.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,6 +128,33 @@
 		73372944213955F6003773BE /* Storyboard3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard3.storyboard; sourceTree = "<group>"; };
 		7337294621395A92003773BE /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 		7337294821395AA6003773BE /* VC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		73372B6A213B6DB1003773BE /* Flash Chat Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flash Chat Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73372B6C213B6DB2003773BE /* Flash_Chat_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flash_Chat_Tests.swift; sourceTree = "<group>"; };
+		73372B6E213B6DB2003773BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73372B78213B6DE9003773BE /* Flash ChatUI  Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flash ChatUI  Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73372B7A213B6DEA003773BE /* Flash_ChatUI__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flash_ChatUI__Tests.swift; sourceTree = "<group>"; };
+		73372B7C213B6DEA003773BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73372B86213B6E19003773BE /* Broadcast-Extension-NAN.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Broadcast-Extension-NAN.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73372B87213B6E19003773BE /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		73372B8A213B6E19003773BE /* SampleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHandler.swift; sourceTree = "<group>"; };
+		73372B8C213B6E19003773BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73372B91213B6E1A003773BE /* Broadcast-Extension-NANSetupUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Broadcast-Extension-NANSetupUI.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73372B93213B6E1A003773BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		73372B96213B6E1A003773BE /* BroadcastSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastSetupViewController.swift; sourceTree = "<group>"; };
+		73372B98213B6E1A003773BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73372BA7213B6F86003773BE /* KITCHEN-SINK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KITCHEN-SINK.swift"; sourceTree = "<group>"; };
+		73372BB1213BF6A8003773BE /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		73372BB2213BF6A8003773BE /* LightSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightSetup.swift; sourceTree = "<group>"; };
+		73372BB3213BF6A8003773BE /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		73372BB4213BF6A8003773BE /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		73372BB5213BF6A8003773BE /* PhotoShoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoShoot.swift; sourceTree = "<group>"; };
+		73372BB6213BF6A8003773BE /* Phtographer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phtographer.swift; sourceTree = "<group>"; };
+		73372BB7213BF6A8003773BE /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		73372BB8213BF6A8003773BE /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		73372BB9213BF6A8003773BE /* Studio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Studio.swift; sourceTree = "<group>"; };
+		73372BBA213BF6A8003773BE /* PhotoSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSubject.swift; sourceTree = "<group>"; };
+		73372BC5213BF74C003773BE /* BLELight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLELight.swift; sourceTree = "<group>"; };
+		73372BC7213BF796003773BE /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
 		735C4B9C212E21B00046C14B /* Nick.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Nick.storyboard; sourceTree = "<group>"; };
 		739F4BDA212DA37300558B5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AB2F081906E63699026E8676 /* Pods-Flash Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flash Chat/Pods-Flash Chat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +170,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		73372B67213B6DB1003773BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73372B75213B6DE9003773BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73372B83213B6E19003773BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73372B88213B6E19003773BE /* ReplayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73372B8E213B6E1A003773BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73372B92213B6E1A003773BE /* ReplayKit.framework in Frameworks */,
+				73372B94213B6E1A003773BE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +208,10 @@
 			isa = PBXGroup;
 			children = (
 				6321A9B81B94EBA10053D2E7 /* Flash Chat */,
+				73372B6B213B6DB2003773BE /* Flash Chat Tests */,
+				73372B79213B6DEA003773BE /* Flash ChatUI  Tests */,
+				73372B89213B6E19003773BE /* Broadcast-Extension-NAN */,
+				73372B95213B6E1A003773BE /* Broadcast-Extension-NANSetupUI */,
 				6321A9B71B94EBA10053D2E7 /* Products */,
 				904D9727B75BBAA4946A1CD6 /* Pods */,
 				B5830C5F24C328C7A4D3BEE6 /* Frameworks */,
@@ -92,6 +222,10 @@
 			isa = PBXGroup;
 			children = (
 				6321A9B61B94EBA10053D2E7 /* Flash Chat.app */,
+				73372B6A213B6DB1003773BE /* Flash Chat Tests.xctest */,
+				73372B78213B6DE9003773BE /* Flash ChatUI  Tests.xctest */,
+				73372B86213B6E19003773BE /* Broadcast-Extension-NAN.appex */,
+				73372B91213B6E1A003773BE /* Broadcast-Extension-NANSetupUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +233,8 @@
 		6321A9B81B94EBA10053D2E7 /* Flash Chat */ = {
 			isa = PBXGroup;
 			children = (
+				73372BAF213BF6A8003773BE /* PhotoShootFeature */,
+				73372BA6213B6F46003773BE /* CODE SNIPPETS */,
 				7337293F213955B2003773BE /* StoryboardReferencing */,
 				7337293421395198003773BE /* LightsFeature */,
 				733729332139518B003773BE /* CameraFeature */,
@@ -208,6 +344,77 @@
 			path = StoryboardReferencing;
 			sourceTree = "<group>";
 		};
+		73372B6B213B6DB2003773BE /* Flash Chat Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73372B6C213B6DB2003773BE /* Flash_Chat_Tests.swift */,
+				73372B6E213B6DB2003773BE /* Info.plist */,
+			);
+			path = "Flash Chat Tests";
+			sourceTree = "<group>";
+		};
+		73372B79213B6DEA003773BE /* Flash ChatUI  Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73372B7A213B6DEA003773BE /* Flash_ChatUI__Tests.swift */,
+				73372B7C213B6DEA003773BE /* Info.plist */,
+			);
+			path = "Flash ChatUI  Tests";
+			sourceTree = "<group>";
+		};
+		73372B89213B6E19003773BE /* Broadcast-Extension-NAN */ = {
+			isa = PBXGroup;
+			children = (
+				73372B8A213B6E19003773BE /* SampleHandler.swift */,
+				73372B8C213B6E19003773BE /* Info.plist */,
+			);
+			path = "Broadcast-Extension-NAN";
+			sourceTree = "<group>";
+		};
+		73372B95213B6E1A003773BE /* Broadcast-Extension-NANSetupUI */ = {
+			isa = PBXGroup;
+			children = (
+				73372B96213B6E1A003773BE /* BroadcastSetupViewController.swift */,
+				73372B98213B6E1A003773BE /* Info.plist */,
+			);
+			path = "Broadcast-Extension-NANSetupUI";
+			sourceTree = "<group>";
+		};
+		73372BA6213B6F46003773BE /* CODE SNIPPETS */ = {
+			isa = PBXGroup;
+			children = (
+				73372BA7213B6F86003773BE /* KITCHEN-SINK.swift */,
+			);
+			path = "CODE SNIPPETS";
+			sourceTree = "<group>";
+		};
+		73372BAF213BF6A8003773BE /* PhotoShootFeature */ = {
+			isa = PBXGroup;
+			children = (
+				73372BB0213BF6A8003773BE /* MODEL */,
+			);
+			path = PhotoShootFeature;
+			sourceTree = "<group>";
+		};
+		73372BB0213BF6A8003773BE /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				73372BB1213BF6A8003773BE /* Address.swift */,
+				73372BB2213BF6A8003773BE /* LightSetup.swift */,
+				73372BB3213BF6A8003773BE /* Model.swift */,
+				73372BB4213BF6A8003773BE /* Person.swift */,
+				73372BB5213BF6A8003773BE /* PhotoShoot.swift */,
+				73372BB6213BF6A8003773BE /* Phtographer.swift */,
+				73372BB7213BF6A8003773BE /* Product.swift */,
+				73372BB8213BF6A8003773BE /* Scene.swift */,
+				73372BB9213BF6A8003773BE /* Studio.swift */,
+				73372BBA213BF6A8003773BE /* PhotoSubject.swift */,
+				73372BC5213BF74C003773BE /* BLELight.swift */,
+				73372BC7213BF796003773BE /* Light.swift */,
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
 		904D9727B75BBAA4946A1CD6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +428,8 @@
 			isa = PBXGroup;
 			children = (
 				EF89A6D7561A04632ED1A2CF /* Pods_Flash_Chat.framework */,
+				73372B87213B6E19003773BE /* ReplayKit.framework */,
+				73372B93213B6E1A003773BE /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -238,15 +447,88 @@
 				6321A9B41B94EBA10053D2E7 /* Resources */,
 				8803363FA614160601415C8D /* [CP] Embed Pods Frameworks */,
 				B6CD49139D73478ACBAF345E /* [CP] Copy Pods Resources */,
+				73372BA5213B6E1A003773BE /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				73372B9A213B6E1A003773BE /* PBXTargetDependency */,
+				73372B9D213B6E1A003773BE /* PBXTargetDependency */,
 			);
 			name = "Flash Chat";
 			productName = "Flash Chat";
 			productReference = 6321A9B61B94EBA10053D2E7 /* Flash Chat.app */;
 			productType = "com.apple.product-type.application";
+		};
+		73372B69213B6DB1003773BE /* Flash Chat Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73372B73213B6DB2003773BE /* Build configuration list for PBXNativeTarget "Flash Chat Tests" */;
+			buildPhases = (
+				73372B66213B6DB1003773BE /* Sources */,
+				73372B67213B6DB1003773BE /* Frameworks */,
+				73372B68213B6DB1003773BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73372B70213B6DB2003773BE /* PBXTargetDependency */,
+			);
+			name = "Flash Chat Tests";
+			productName = "Flash Chat Tests";
+			productReference = 73372B6A213B6DB1003773BE /* Flash Chat Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73372B77213B6DE9003773BE /* Flash ChatUI  Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73372B7F213B6DEA003773BE /* Build configuration list for PBXNativeTarget "Flash ChatUI  Tests" */;
+			buildPhases = (
+				73372B74213B6DE9003773BE /* Sources */,
+				73372B75213B6DE9003773BE /* Frameworks */,
+				73372B76213B6DE9003773BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73372B7E213B6DEA003773BE /* PBXTargetDependency */,
+			);
+			name = "Flash ChatUI  Tests";
+			productName = "Flash ChatUI  Tests";
+			productReference = 73372B78213B6DE9003773BE /* Flash ChatUI  Tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		73372B85213B6E19003773BE /* Broadcast-Extension-NAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73372BA2213B6E1A003773BE /* Build configuration list for PBXNativeTarget "Broadcast-Extension-NAN" */;
+			buildPhases = (
+				73372B82213B6E19003773BE /* Sources */,
+				73372B83213B6E19003773BE /* Frameworks */,
+				73372B84213B6E19003773BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Broadcast-Extension-NAN";
+			productName = "Broadcast-Extension-NAN";
+			productReference = 73372B86213B6E19003773BE /* Broadcast-Extension-NAN.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		73372B90213B6E1A003773BE /* Broadcast-Extension-NANSetupUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73372B9F213B6E1A003773BE /* Build configuration list for PBXNativeTarget "Broadcast-Extension-NANSetupUI" */;
+			buildPhases = (
+				73372B8D213B6E1A003773BE /* Sources */,
+				73372B8E213B6E1A003773BE /* Frameworks */,
+				73372B8F213B6E1A003773BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Broadcast-Extension-NANSetupUI";
+			productName = "Broadcast-Extension-NANSetupUI";
+			productReference = 73372B91213B6E1A003773BE /* Broadcast-Extension-NANSetupUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -255,7 +537,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "London App Brewery";
 				TargetAttributes = {
@@ -263,6 +545,28 @@
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = JWLV9L7TJB;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					73372B69213B6DB1003773BE = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = R65V38VCF7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6321A9B51B94EBA10053D2E7;
+					};
+					73372B77213B6DE9003773BE = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = R65V38VCF7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6321A9B51B94EBA10053D2E7;
+					};
+					73372B85213B6E19003773BE = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = JWLV9L7TJB;
+						ProvisioningStyle = Automatic;
+					};
+					73372B90213B6E1A003773BE = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = JWLV9L7TJB;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -281,6 +585,10 @@
 			projectRoot = "";
 			targets = (
 				6321A9B51B94EBA10053D2E7 /* Flash Chat */,
+				73372B69213B6DB1003773BE /* Flash Chat Tests */,
+				73372B77213B6DE9003773BE /* Flash ChatUI  Tests */,
+				73372B85213B6E19003773BE /* Broadcast-Extension-NAN */,
+				73372B90213B6E1A003773BE /* Broadcast-Extension-NANSetupUI */,
 			);
 		};
 /* End PBXProject section */
@@ -301,6 +609,34 @@
 				735C4B9D212E21B00046C14B /* Nick.storyboard in Resources */,
 				73372941213955D3003773BE /* Storyboard1.storyboard in Resources */,
 				73372945213955F6003773BE /* Storyboard3.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73372B68213B6DB1003773BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73372B76213B6DE9003773BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73372B84213B6E19003773BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73372B8F213B6E1A003773BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,22 +712,90 @@
 			buildActionMask = 2147483647;
 			files = (
 				7337293E21395496003773BE /* LightsViewController.swift in Sources */,
+				73372BC4213BF6A8003773BE /* PhotoSubject.swift in Sources */,
+				73372BA8213B6F86003773BE /* KITCHEN-SINK.swift in Sources */,
 				63E28B331B9A337600FBF6E0 /* WelcomeViewController.swift in Sources */,
 				7337293C21395486003773BE /* CameraViewController.swift in Sources */,
 				7337294721395A92003773BE /* VC2.swift in Sources */,
+				73372BC1213BF6A8003773BE /* Product.swift in Sources */,
 				63E28B251B9A335300FBF6E0 /* Message.swift in Sources */,
 				6321A9E21B94EBE70053D2E7 /* CustomMessageCell.swift in Sources */,
+				73372BBC213BF6A8003773BE /* LightSetup.swift in Sources */,
 				63E28B321B9A337600FBF6E0 /* RegisterViewController.swift in Sources */,
+				73372BBD213BF6A8003773BE /* Model.swift in Sources */,
 				73372938213953E3003773BE /* ButtonsViewController.swift in Sources */,
 				63E28B311B9A337600FBF6E0 /* LogInViewController.swift in Sources */,
 				63E28B2F1B9A337600FBF6E0 /* AppDelegate.swift in Sources */,
 				7337294921395AA6003773BE /* VC3.swift in Sources */,
+				73372BC6213BF74C003773BE /* BLELight.swift in Sources */,
+				73372BC3213BF6A8003773BE /* Studio.swift in Sources */,
+				73372BC8213BF796003773BE /* Light.swift in Sources */,
+				73372BBF213BF6A8003773BE /* PhotoShoot.swift in Sources */,
+				73372BBE213BF6A8003773BE /* Person.swift in Sources */,
 				63E28B301B9A337600FBF6E0 /* ChatViewController.swift in Sources */,
+				73372BC0213BF6A8003773BE /* Phtographer.swift in Sources */,
+				73372BC2213BF6A8003773BE /* Scene.swift in Sources */,
+				73372BBB213BF6A8003773BE /* Address.swift in Sources */,
 				7337293A213953FA003773BE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		73372B66213B6DB1003773BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73372B6D213B6DB2003773BE /* Flash_Chat_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73372B74213B6DE9003773BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73372B7B213B6DEA003773BE /* Flash_ChatUI__Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73372B82213B6E19003773BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73372B8B213B6E19003773BE /* SampleHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73372B8D213B6E1A003773BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73372B97213B6E1A003773BE /* BroadcastSetupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73372B70213B6DB2003773BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6321A9B51B94EBA10053D2E7 /* Flash Chat */;
+			targetProxy = 73372B6F213B6DB2003773BE /* PBXContainerItemProxy */;
+		};
+		73372B7E213B6DEA003773BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6321A9B51B94EBA10053D2E7 /* Flash Chat */;
+			targetProxy = 73372B7D213B6DEA003773BE /* PBXContainerItemProxy */;
+		};
+		73372B9A213B6E1A003773BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73372B90213B6E1A003773BE /* Broadcast-Extension-NANSetupUI */;
+			targetProxy = 73372B99213B6E1A003773BE /* PBXContainerItemProxy */;
+		};
+		73372B9D213B6E1A003773BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73372B85213B6E19003773BE /* Broadcast-Extension-NAN */;
+			targetProxy = 73372B9C213B6E1A003773BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6321A9D31B94EBA10053D2E7 /* Debug */ = {
@@ -501,7 +905,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB2F081906E63699026E8676 /* Pods-Flash Chat.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = JWLV9L7TJB;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -523,7 +929,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6193E38227DB1F00561E8950 /* Pods-Flash Chat.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = JWLV9L7TJB;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -538,6 +946,210 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		73372B71213B6DB2003773BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = R65V38VCF7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Flash Chat Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invirtstudios.Flash-Chat-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flash Chat.app/Flash Chat";
+			};
+			name = Debug;
+		};
+		73372B72213B6DB2003773BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R65V38VCF7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Flash Chat Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invirtstudios.Flash-Chat-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flash Chat.app/Flash Chat";
+			};
+			name = Release;
+		};
+		73372B80213B6DEA003773BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = R65V38VCF7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Flash ChatUI  Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invirtstudios.Flash-ChatUI--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flash Chat";
+			};
+			name = Debug;
+		};
+		73372B81213B6DEA003773BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R65V38VCF7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Flash ChatUI  Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invirtstudios.Flash-ChatUI--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flash Chat";
+			};
+			name = Release;
+		};
+		73372BA0213B6E1A003773BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JWLV9L7TJB;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Broadcast-Extension-NANSetupUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invirtstudios.Flash-Chat.Broadcast-Extension-NANSetupUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73372BA1213B6E1A003773BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWLV9L7TJB;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Broadcast-Extension-NANSetupUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invirtstudios.Flash-Chat.Broadcast-Extension-NANSetupUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73372BA3213B6E1A003773BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JWLV9L7TJB;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Broadcast-Extension-NAN/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invirtstudios.Flash-Chat.Broadcast-Extension-NAN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73372BA4213B6E1A003773BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWLV9L7TJB;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Broadcast-Extension-NAN/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invirtstudios.Flash-Chat.Broadcast-Extension-NAN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -558,6 +1170,42 @@
 			buildConfigurations = (
 				6321A9D61B94EBA10053D2E7 /* Debug */,
 				6321A9D71B94EBA10053D2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73372B73213B6DB2003773BE /* Build configuration list for PBXNativeTarget "Flash Chat Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73372B71213B6DB2003773BE /* Debug */,
+				73372B72213B6DB2003773BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73372B7F213B6DEA003773BE /* Build configuration list for PBXNativeTarget "Flash ChatUI  Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73372B80213B6DEA003773BE /* Debug */,
+				73372B81213B6DEA003773BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73372B9F213B6E1A003773BE /* Build configuration list for PBXNativeTarget "Broadcast-Extension-NANSetupUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73372BA0213B6E1A003773BE /* Debug */,
+				73372BA1213B6E1A003773BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73372BA2213B6E1A003773BE /* Build configuration list for PBXNativeTarget "Broadcast-Extension-NAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73372BA3213B6E1A003773BE /* Debug */,
+				73372BA4213B6E1A003773BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
