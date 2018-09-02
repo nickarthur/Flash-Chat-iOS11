@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreLocation
 
 protocol Light {
     var lightID: String { get set }
@@ -17,6 +18,8 @@ protocol Light {
     
     var isGelled: Bool { get set }
     var gelDescription: String? { get set }
+    
+    var role: LightRole? { get set }
 }
 
 protocol RGBSettable {
@@ -36,4 +39,15 @@ enum LightType {
     case strobe
     case bleContinuous
     case bleStrobe
+}
+
+// implicit raw string values for each case
+enum LightRole: String {
+    case key
+    case main
+    case fill
+    case accent
+    case kicker
+    case hair
+    case background
 }

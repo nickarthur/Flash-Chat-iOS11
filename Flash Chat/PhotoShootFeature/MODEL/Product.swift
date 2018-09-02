@@ -9,9 +9,9 @@
 
 import Foundation
 
-class Product , Subject {
-	var description: String? = "fruit basket"
-
-// MARK: - Subject protocol
-
+class ProductPhotoSubject {
+    
+// MARK: - PhotoSubject protocol
+    var description: String? = "fruit basket"
+    
 }

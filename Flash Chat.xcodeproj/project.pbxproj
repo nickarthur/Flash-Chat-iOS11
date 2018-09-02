@@ -52,6 +52,8 @@
 		73372BC4213BF6A8003773BE /* PhotoSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BBA213BF6A8003773BE /* PhotoSubject.swift */; };
 		73372BC6213BF74C003773BE /* BLELight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BC5213BF74C003773BE /* BLELight.swift */; };
 		73372BC8213BF796003773BE /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BC7213BF796003773BE /* Light.swift */; };
+		73372BCB213C0AD7003773BE /* Placement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BCA213C0AD7003773BE /* Placement.swift */; };
+		73372BCD213C0DBE003773BE /* NANBLEDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73372BCC213C0DBE003773BE /* NANBLEDevice.swift */; };
 		735C4B9D212E21B00046C14B /* Nick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735C4B9C212E21B00046C14B /* Nick.storyboard */; };
 		739F4BDB212DA37400558B5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 739F4BDA212DA37300558B5F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -155,6 +157,8 @@
 		73372BBA213BF6A8003773BE /* PhotoSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSubject.swift; sourceTree = "<group>"; };
 		73372BC5213BF74C003773BE /* BLELight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLELight.swift; sourceTree = "<group>"; };
 		73372BC7213BF796003773BE /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		73372BCA213C0AD7003773BE /* Placement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placement.swift; sourceTree = "<group>"; };
+		73372BCC213C0DBE003773BE /* NANBLEDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NANBLEDevice.swift; sourceTree = "<group>"; };
 		735C4B9C212E21B00046C14B /* Nick.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Nick.storyboard; sourceTree = "<group>"; };
 		739F4BDA212DA37300558B5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AB2F081906E63699026E8676 /* Pods-Flash Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flash Chat/Pods-Flash Chat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -391,6 +395,7 @@
 		73372BAF213BF6A8003773BE /* PhotoShootFeature */ = {
 			isa = PBXGroup;
 			children = (
+				73372BC9213C0AA6003773BE /* Common */,
 				73372BB0213BF6A8003773BE /* MODEL */,
 			);
 			path = PhotoShootFeature;
@@ -411,8 +416,17 @@
 				73372BBA213BF6A8003773BE /* PhotoSubject.swift */,
 				73372BC5213BF74C003773BE /* BLELight.swift */,
 				73372BC7213BF796003773BE /* Light.swift */,
+				73372BCC213C0DBE003773BE /* NANBLEDevice.swift */,
 			);
 			path = MODEL;
+			sourceTree = "<group>";
+		};
+		73372BC9213C0AA6003773BE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				73372BCA213C0AD7003773BE /* Placement.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		904D9727B75BBAA4946A1CD6 /* Pods */ = {
@@ -735,6 +749,8 @@
 				63E28B301B9A337600FBF6E0 /* ChatViewController.swift in Sources */,
 				73372BC0213BF6A8003773BE /* Phtographer.swift in Sources */,
 				73372BC2213BF6A8003773BE /* Scene.swift in Sources */,
+				73372BCB213C0AD7003773BE /* Placement.swift in Sources */,
+				73372BCD213C0DBE003773BE /* NANBLEDevice.swift in Sources */,
 				73372BBB213BF6A8003773BE /* Address.swift in Sources */,
 				7337293A213953FA003773BE /* SettingsViewController.swift in Sources */,
 			);

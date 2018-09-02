@@ -8,6 +8,7 @@
 
 
 import Foundation
+import CoreLocation
 
 struct PhotoShoot {
 	var photoBucketURL: URL
@@ -20,5 +21,4 @@ struct PhotoShoot {
 	var isOnLocation: Bool?
 	var lightsList: [Light]
 	var shootGeolocation: CLLocation?
-
 }

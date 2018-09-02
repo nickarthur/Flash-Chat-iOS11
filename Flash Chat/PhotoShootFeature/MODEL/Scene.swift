@@ -9,15 +9,10 @@
 
 import Foundation
 
-class Scene: NSObject {
-	var title: String = "Beach Setting"
-	var description: String = "a sunsetty evening"
-	var subject: [Subject] = [Subject]()
-	var lightSetups: [LightSetup]
+class Scene {
+	var title: String? = "Beach Setting"
+	var description: String? = "a sunsetty evening"
+	var subject: [PhotoSubject] = [PhotoSubject]()
+	var lightSetups: [LightSetup]?
 	var photosURL: URL?
-
-	init(lightSetups:[LightSetup]) {
-		self.lightSetups = lightSetups
-		super.init()
-	}
 }

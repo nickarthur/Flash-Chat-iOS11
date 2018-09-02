@@ -9,7 +9,7 @@
 
 import Foundation
 
-class LightSetup: NSObject {
-	var lights: [Light] = [Light]()
 
+class LightSetup {
+	var lights: [Light] = [Light]()
 }

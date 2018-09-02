@@ -10,5 +10,5 @@
 import Foundation
 
 protocol PhotoSubject {
-
+    var description: String? { get set }
 }

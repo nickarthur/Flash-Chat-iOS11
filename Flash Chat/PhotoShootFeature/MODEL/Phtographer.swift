@@ -9,12 +9,14 @@
 
 import Foundation
 
-class Phtographer: Person {
-	var photographerID: String
+class Photographer: Person {
+    
+	var photographerID: String  = ""
 	var studio: Studio?
 
-	init(photographerID:String) {
-		self.photographerID = photographerID
-		super.init()
-	}
+    override init(lastName:String?, firstName:String?) {
+        // if first name or lastName is not specified us
+        // empty string
+        super.init(lastName: lastName ?? "",  firstName: firstName ?? "")
+    }
 }

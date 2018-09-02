@@ -9,7 +9,7 @@
 
 import Foundation
 
-class Person: NSObject {
+class Person {
 	var firstName: String
 	var lastName: String
 	var address: Address?
@@ -19,6 +19,5 @@ class Person: NSObject {
 	init(lastName:String, firstName:String) {
 		self.lastName = lastName
 		self.firstName = firstName
-		super.init()
 	}
 }

@@ -27,7 +27,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                 <state key="normal" title="Go To VC2"/>
                                 <connections>
-                                    <segue destination="BZ3-wX-Anp" kind="push" identifier="goToVC2" id="2tU-Qe-IH7"/>
+                                    <segue destination="BZ3-wX-Anp" kind="show" identifier="goToVC2" id="2tU-Qe-IH7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -67,6 +67,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="eiV-ZE-YRL" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="La6-Ca-Uxx">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -115,7 +116,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                 <state key="normal" title="Go To VC2"/>
                                 <connections>
-                                    <segue destination="LiF-Bz-oSn" kind="push" identifier="goToVC2" id="9za-25-t10"/>
+                                    <segue destination="LiF-Bz-oSn" kind="show" identifier="goToVC2" id="9za-25-t10"/>
                                 </connections>
                             </button>
                         </subviews>

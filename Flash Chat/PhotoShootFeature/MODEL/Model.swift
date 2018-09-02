@@ -9,9 +9,17 @@
 
 import Foundation
 
-class Model: Person, Subject {
-	var description: String?
+class Model: Person, PhotoSubject {
 
-// MARK: - Subject protocol
+    // MARK: - PhotoSubject protocol
+    // describe the model makeup, outfit, etc until i decide
+    // to break out model info into separate fields/properties
+    var description: String?
+    
+    override init(lastName:String?, firstName:String?) {
+        // if first name or lastName is not specified us
+        // empty string
+        super.init(lastName: lastName ?? "",  firstName: firstName ?? "")
+    }
 
 }

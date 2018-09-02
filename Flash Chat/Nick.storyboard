@@ -110,7 +110,7 @@
                     <connections>
                         <outlet property="emailTextfield" destination="yLL-vQ-vtv" id="bEw-f4-ho3"/>
                         <outlet property="passwordTextfield" destination="RRf-h2-chi" id="OeL-AG-4dH"/>
-                        <segue destination="Lht-0Q-2GB" kind="push" identifier="goToChat" id="rTy-eo-1zd"/>
+                        <segue destination="Lht-0Q-2GB" kind="show" identifier="goToChat" id="rTy-eo-1zd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XNi-9d-uJn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -189,7 +189,7 @@
                     <connections>
                         <outlet property="emailTextfield" destination="YlC-gP-ubB" id="g9v-EA-JXD"/>
                         <outlet property="passwordTextfield" destination="vd0-hj-VNE" id="gvJ-QL-Bvx"/>
-                        <segue destination="Lht-0Q-2GB" kind="push" identifier="goToChat" id="RLP-Ru-e6N"/>
+                        <segue destination="Lht-0Q-2GB" kind="show" identifier="goToChat" id="RLP-Ru-e6N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="haY-Zk-x7F" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -218,7 +218,7 @@
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="g7P-V0-C6j" kind="push" identifier="goToLogin" id="rUD-Gt-40J"/>
+                                    <segue destination="g7P-V0-C6j" kind="show" identifier="goToLogin" id="rUD-Gt-40J"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWf-ap-OKM">
@@ -365,6 +365,6 @@
         <image name="cruise-stars-milkyway" width="801" height="487"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HuM-bX-Yij"/>
+        <segue reference="rTy-eo-1zd"/>
     </inferredMetricsTieBreakers>
 </document>
