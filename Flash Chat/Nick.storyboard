@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gj4-UW-YgL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lht-0Q-2GB">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -349,7 +349,7 @@
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <connections>
-                        <outlet property="heightConstraint" destination="RHW-8p-s7w" id="9JS-Wn-EfZ"/>
+                        <outlet property="heightConstraint" destination="RHW-8p-s7w" id="W35-vt-LhC"/>
                         <outlet property="messageTableView" destination="ebZ-Ss-cGt" id="aV0-qk-jBb"/>
                         <outlet property="messageTextfield" destination="SSu-Jk-bxb" id="xjL-WW-EUp"/>
                         <outlet property="sendButton" destination="1oo-w1-iiV" id="04J-0Y-QQJ"/>
@@ -365,6 +365,6 @@
         <image name="cruise-stars-milkyway" width="801" height="487"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="rTy-eo-1zd"/>
+        <segue reference="RLP-Ru-e6N"/>
     </inferredMetricsTieBreakers>
 </document>

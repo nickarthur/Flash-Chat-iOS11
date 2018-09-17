@@ -9,11 +9,13 @@
 import UIKit
 import Firebase
 
-class ChatViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ChatViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
     
     // Declare instance variables here
     var messageArray :[String] = [String]()
     
+    var modelName: String = ""
+
     // We've pre-linked the IBOutlets
     @IBOutlet var heightConstraint: NSLayoutConstraint!
     @IBOutlet var sendButton: UIButton!
@@ -25,6 +27,8 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        modelName = UIDevice.modelName
+        
         messageArray = ["message 1","messagefgnafnargjn sftjha sr artyhsr srjh  srjsr jh   2","messagefgnafnargjn sftjha sr artyhsr srjh  srjsr jh   2","message 3"]
         //TODO: Set yourself as the delegate and datasource here:
         
@@ -33,7 +37,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         messageTableView.dataSource = self
         
         //TODO: Set yourself as the delegate of the text field here:
- 
+        messageTextfield.delegate = self
         
         
         //TODO: Set the tapGesture here:
@@ -48,6 +52,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         // this is optional, it is likely better to just implement
         // the delegate methods,  `heightForRowAt and estimatedHeightForRowAt`
         // shown in the code below
+        
         configureTableView()
         
     }
@@ -61,6 +66,16 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
                    numberOfRowsInSection section: Int) -> Int {
         let numRowsInSection = self.numberOfRowsInSection()
         return numRowsInSection
+    }
+    
+    // TODO: IMPLEMENT CELL STYLING
+
+    func tableView(_ tableView: UITableView, willDisplay cell:
+        // TODO: inside
+        UITableViewCell, forRowAt indexPath: IndexPath) {
+        let cell = cell as! CustomMessageCell
+        cell.messageBackground.layer.cornerRadius = 15
+        cell.messageBackground.clipsToBounds = true
     }
     
     //TODO: Declare cellForRowAtIndexPath here:
@@ -119,14 +134,27 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     
     //TODO: Declare textFieldDidBeginEditing here:
+    override func willRotate(to toInterfaceOrientation:
+        UIInterfaceOrientation, duration: TimeInterval) {
+        
+
+    }
     
     
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        adjustViewToKeyboardHeight()
+    }
     
     
     //TODO: Declare textFieldDidEndEditing here:
     
-
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        
+    }
     
+    func adjustViewToKeyboardHeight() {
+        heightConstraint.constant += keyboardHeight
+    }
     ///////////////////////////////////////////
     
     
